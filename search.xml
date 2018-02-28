@@ -1,8 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F02%2F28%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[徐志摩《沙扬娜拉》]]></title>
+    <url>%2F2018%2F02%2F28%2F%E5%BE%90%E5%BF%97%E6%91%A9%E3%80%8A%E6%B2%99%E6%89%AC%E5%A8%9C%E6%8B%89%E3%80%8B%2F</url>
+    <content type="text"><![CDATA[最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞 — 徐志摩《沙扬娜拉》 最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞道一声珍重，道一声珍重那一声珍重里有蜜甜的忧愁沙扬娜拉！]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[npm script -- 当npm start之后launch浏览器]]></title>
+    <url>%2F2018%2F02%2F28%2F%E5%BD%93npm-start%E4%B9%8B%E5%90%8Elaunch%E6%B5%8F%E8%A7%88%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[精神像乳汁一样可以养育人的，智慧便是一只乳房。 — 雨果 12345678// Windows&quot;start&quot;:&quot;start http://localhost:8081 &amp; node bin/www&quot;// Mac&quot;start&quot;:&quot;open http://localhost:8081 &amp;&amp; node bin/www&quot;// Linux&quot;start&quot;:&quot;xdg-open http://localhost:8081 &amp;&amp; node bin/www&quot;]]></content>
+      <categories>
+        <category>npm</category>
+      </categories>
+      <tags>
+        <tag>npm script</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[npm script -- 如何在package.json设置环境变量]]></title>
+    <url>%2F2018%2F02%2F28%2F%E5%A6%82%E4%BD%95%E5%9C%A8package-json%E8%AE%BE%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%2F</url>
+    <content type="text"><![CDATA[爱情是女人一生的历史，而只是男人一生中的一段插曲—史达尔 在npm scripts里设置环境变量1234&quot;scripts&quot;: &#123; &quot;prod&quot;: &quot;NODE_ENV=production electron .&quot;, &quot;dev&quot;: &quot;NODE_ENV=development electron .&quot; &#125; 使用如下方式获取环境变量12345npm run devconsole.log(process.env.NODE_ENV) //developmentnpm run prodconsole.log(process.env.NODE_ENV) //production]]></content>
+      <categories>
+        <category>npm</category>
+      </categories>
+      <tags>
+        <tag>npm script</tag>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[你的名字。]]></title>
+    <url>%2F2018%2F02%2F28%2F%E4%BD%A0%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82%2F</url>
+    <content type="text"><![CDATA[梦里相逢人不见，若知是梦何须醒纵然梦里常幽会，怎比真如见一回–小野小町 taki找mitsuha找了五年，mitsuha等了taki八年。]]></content>
+      <tags>
+        <tag>番剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[zsh config]]></title>
+    <url>%2F2018%2F02%2F28%2Fzsh-config%2F</url>
+    <content type="text"><![CDATA[水是眼波横，山是眉峰聚。欲问行人去哪也？眉眼盈盈处。 — 王观 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103# Path to your oh-my-zsh installation.export ZSH=/Users/Amor/.oh-my-zsh# Set name of the theme to load.# Look in ~/.oh-my-zsh/themes/# Optionally, if you set this to &quot;random&quot;, it&apos;ll load a random theme each# time that oh-my-zsh is loaded.ZSH_THEME=&quot;agnoster&quot;# Uncomment the following line to use case-sensitive completion.# CASE_SENSITIVE=&quot;true&quot;# Uncomment the following line to use hyphen-insensitive completion. Case# sensitive completion must be off. _ and - will be interchangeable.# HYPHEN_INSENSITIVE=&quot;true&quot;# Uncomment the following line to disable bi-weekly auto-update checks.DISABLE_AUTO_UPDATE=&quot;true&quot;# Uncomment the following line to change how often to auto-update (in days).export UPDATE_ZSH_DAYS=3# Uncomment the following line to disable colors in ls.# DISABLE_LS_COLORS=&quot;true&quot;# Uncomment the following line to disable auto-setting terminal title.# DISABLE_AUTO_TITLE=&quot;true&quot;# Uncomment the following line to enable command auto-correction.# ENABLE_CORRECTION=&quot;true&quot;# Uncomment the following line to display red dots whilst waiting for completion.# COMPLETION_WAITING_DOTS=&quot;true&quot;# Uncomment the following line if you want to disable marking untracked files# under VCS as dirty. This makes repository status check for large repositories# much, much faster.# DISABLE_UNTRACKED_FILES_DIRTY=&quot;true&quot;# Uncomment the following line if you want to change the command execution time# stamp shown in the history command output.# The optional three formats: &quot;mm/dd/yyyy&quot;|&quot;dd.mm.yyyy&quot;|&quot;yyyy-mm-dd&quot;# HIST_STAMPS=&quot;mm/dd/yyyy&quot;# Would you like to use another custom folder than $ZSH/custom?# ZSH_CUSTOM=/path/to/new-custom-folder# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/# Example format: plugins=(rails git textmate ruby lighthouse)# Add wisely, as too many plugins slow down shell startup.plugins=(git web-search osx catimg sudo vscode go)# User configuration# go env configurationexport GOPATH=/usr/local/Cellar/go/1.7.1export GOBIN=$GOPATH/binexport PATH=$PATH:$GOBIN#export PATH=&quot;/usr/bin:/bin:/usr/sbin:/sbin:$PATH&quot;export PATH=&quot;/usr/local/bin:/usr/local/sbin:$PATH&quot;# export MANPATH=&quot;/usr/local/man:$MANPATH&quot;source $ZSH/oh-my-zsh.sh# You may need to manually set your language environment# export LANG=en_US.UTF-8# Preferred editor for local and remote sessions# if [[ -n $SSH_CONNECTION ]]; then# export EDITOR=&apos;vim&apos;# else# export EDITOR=&apos;mvim&apos;# fi# Compilation flags# export ARCHFLAGS=&quot;-arch x86_64&quot;# ssh# export SSH_KEY_PATH=&quot;~/.ssh/dsa_id&quot;# Set personal aliases, overriding those provided by oh-my-zsh libs,# plugins, and themes. Aliases can be placed here, though oh-my-zsh# users are encouraged to define aliases within the ZSH_CUSTOM folder.# For a full list of active aliases, run `alias`.## aliasesalias zshconfig=&quot;vs ~/.zshrc&quot;alias ohmyzsh=&quot;vs ~/.oh-my-zsh&quot;alias code=&apos;vs /Users/Amor/WebstormProjects&apos;alias weather=&quot;curl -4 http://wttr.in/Shanghai&quot;#echo#archey#echoechoecho &quot;=============== Quote Of The Day ===============&quot;echofortuneechoecho &quot;================================================&quot;echotest -e &quot;$&#123;HOME&#125;/.iterm2_shell_integration.zsh&quot; &amp;&amp; source &quot;$&#123;HOME&#125;/.iterm2_shell_integration.zsh&quot;]]></content>
+      <categories>
+        <category>iTerm2</category>
+        <category>zsh</category>
+        <category>config</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
+        <tag>iTerm2</tag>
+        <tag>zsh</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vs code config]]></title>
+    <url>%2F2018%2F02%2F28%2Fvs-code-config%2F</url>
+    <content type="text"><![CDATA[我们不得不饮食睡眠游惰恋爱，也就是说，我们不得不接触生活中最甜蜜的事情：不过我们必须不屈服于这些事物……— 约里奥·居里 1234567891011121314151617181920212223// 将设置放入此文件中以覆盖默认设置&#123; // 控制字体系列。 &quot;editor.fontFamily&quot;: &quot;Meslo LG M for Powerline&quot;, // 控制字体粗细。 &quot;editor.fontWeight&quot;: &quot;normal&quot;, // 控制字体大小。 &quot;editor.fontSize&quot;: 16, // 自定义要在 OS X 上运行的终端应用程序。 &quot;terminal.external.osxExec&quot;: &quot;iTerm.app&quot;, // 控制是否自动保存更新后的文件。接受的值:“off”、“afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 &quot;files.autoSaveDelay&quot; 中配置延迟。 &quot;files.autoSave&quot;: &quot;afterDelay&quot;, // 启用要发送给 Microsoft 的使用情况数据和错误。 &quot;telemetry.enableTelemetry&quot;: false, // 启用要发送给 Microsoft 的故障报表。 // 此选项需重启才可生效。 &quot;telemetry.enableCrashReporter&quot;: false, // Automatically update extensions &quot;extensions.autoUpdate&quot;: true,// Go configuration // Autocomplete members from unimported packages. &quot;go.autocompleteUnimportedPackages&quot;: true&#125;]]></content>
+      <categories>
+        <category>vs</category>
+        <category>config</category>
+      </categories>
+      <tags>
+        <tag>config</tag>
+        <tag>vs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[photo]]></title>
+    <url>%2F2018%2F02%2F28%2Fphoto%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[nodejs邮件发送就是这么简单]]></title>
+    <url>%2F2018%2F02%2F28%2Fnodejs%E9%82%AE%E4%BB%B6%E5%8F%91%E9%80%81%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B9%88%E7%AE%80%E5%8D%95%2F</url>
+    <content type="text"><![CDATA[调用方法：sendMail(&#39;amor_zhang@qq.com&#39;,&#39;这是测试邮件&#39;, &#39;Hi Amor,这是一封测试邮件&#39;); 支持服务：123456789101112131415161718192021222324252627282930313233&apos;1und1&apos;,&apos;AOL&apos;,&apos;DebugMail.io&apos;,&apos;DynectEmail&apos;,&apos;FastMail&apos;,&apos;GandiMail&apos;,&apos;Gmail&apos;,&apos;Godaddy&apos;,&apos;GodaddyAsia&apos;,&apos;GodaddyEurope&apos;,&apos;hot.ee&apos;,&apos;Hotmail&apos;,&apos;iCloud&apos;,&apos;mail.ee&apos;,&apos;Mail.ru&apos;,&apos;Mailgun&apos;,&apos;Mailjet&apos;,&apos;Mandrill&apos;,&apos;Naver&apos;,&apos;OpenMailBox&apos;,&apos;Postmark&apos;,&apos;QQ&apos;,&apos;QQex&apos;,&apos;SendCloud&apos;,&apos;SendGrid&apos;,&apos;SES&apos;,&apos;SES-US-EAST-1&apos;,&apos;SES-US-WEST-1&apos;,&apos;SES-EU-WEST-1&apos;,&apos;Sparkpost&apos;,&apos;Yahoo&apos;,&apos;Yandex&apos;,&apos;Zoho&apos; 安装如下包：npm install nodemailer --save npm install nodemailer-smtp-transport --save package version: 12&quot;nodemailer&quot;: &quot;^2.3.2&quot;,&quot;nodemailer-smtp-transport&quot;: &quot;^2.4.2&quot;, config.js:12345678module.exports = &#123; //邮件配置 email: &#123; service: 'QQ', user: '你的邮箱', pass: '你的密码', &#125;&#125; mail.js12345678910111213141516171819202122232425262728293031323334353637383940414243444546/** * * @Description 邮件发送 * 调用方法:sendMail('amor_zhang@qq.com','这是测试邮件', 'Hi Amor,这是一封测试邮件'); * @Author Amor * @Created 2016/04/26 15:10 * 技术只是解决问题的选择,而不是解决问题的根本... * 我是Amor,为发骚而生! * */var nodemailer = require('nodemailer')var smtpTransport = require('nodemailer-smtp-transport');var config = require('./config')smtpTransport = nodemailer.createTransport(smtpTransport(&#123; service: config.email.service, auth: &#123; user: config.email.user, pass: config.email.pass &#125;&#125;));/** * @param &#123;String&#125; recipient 收件人 * @param &#123;String&#125; subject 发送的主题 * @param &#123;String&#125; html 发送的html内容 */var sendMail = function (recipient, subject, html) &#123; smtpTransport.sendMail(&#123; from: config.email.user, to: recipient, subject: subject, html: html &#125;, function (error, response) &#123; if (error) &#123; console.log(error); &#125; console.log('发送成功') &#125;);&#125;module.exports = sendMail; 代码地址：]]></content>
+      <categories>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>邮件发送</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nodejs文件上传就是这么简单]]></title>
+    <url>%2F2018%2F02%2F28%2Fnodejs%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%B0%B1%E6%98%AF%E8%BF%99%E4%B9%88%E7%AE%80%E5%8D%95%2F</url>
+    <content type="text"><![CDATA[安装如下包：npm install multer package versions: &quot;multer&quot;: &quot;^1.1.0&quot;, 使用方法：1234567891011121314151617181920212223/** * * @Description 系统服务 * @Author Amor * @Created 2016/04/27 15:27 * 技术只是解决问题的选择,而不是解决问题的根本... * 我是Amor,为发骚而生! * */var express = require(&apos;express&apos;);var router = express.Router();var upload = require(&apos;./fileupload&apos;);//文件上传服务router.post(&apos;/upload&apos;, upload.single(&apos;avatar&apos;), function (req, res, next) &#123; if (req.file) &#123; res.send(&apos;文件上传成功&apos;) console.log(req.file); console.log(req.body); &#125;&#125;);module.exports = router; config.js123456789101112131415/** * * @Description 系统配置 * @Author Amor * @Created 2016/04/26 11:48 * 技术只是解决问题的选择,而不是解决问题的根本... * 我是Amor,为发骚而生! * */module.exports = &#123; upload: &#123; path: process.cwd() + &apos;/uploads&apos; &#125;&#125; fileuploads.js1234567891011121314151617181920212223242526272829303132/** * * @Description 文件上传配置 * @Author Amor * @Created 2016/04/27 17:50 * 技术只是解决问题的选择,而不是解决问题的根本... * 我是Amor,为发骚而生! * */var multer = require(&apos;multer&apos;);var config = require(&apos;./config&apos;)var storage = multer.diskStorage(&#123; //设置上传文件路径,以后可以扩展成上传至七牛,文件服务器等等 //Note:如果你传递的是一个函数，你负责创建文件夹，如果你传递的是一个字符串，multer会自动创建 destination: config.upload.path, //TODO:文件区分目录存放 //重命名filename: function (req, file, cb) &#123; var fileFormat =(file.originalname).split(&quot;.&quot;); cb(null, file.fieldname + &quot;.&quot; + fileFormat[fileFormat.length - 1]); &#125;&#125;);//添加配置文件到muler对象。var upload = multer(&#123; storage: storage, //其他设置请参考multer的limits //limits:&#123;&#125;&#125;);//导出对象module.exports = upload; form:12345&lt;form id=&apos;editfile&apos; method=&apos;post&apos; action=&apos;/system/upload&apos; enctype=&apos;multipart/form-data&apos;&gt; &lt;input name=&quot;text&quot; type=&quot;text&quot;/&gt; 选择图片：&lt;input name=&quot;avatar&quot; id=&apos;upfile&apos; type=&apos;file&apos;/&gt; &lt;input type=&apos;submit&apos; value=&apos;提交&apos;/&gt;&lt;/form&gt; 目前只是实现基本上传功能，还有许多待处理，比如错误处理、上传大小限制，图片压缩等等，如果需要，请自行扩展。 代码地址： 转载请注明原地址，谢谢！]]></content>
+      <categories>
+        <category>nodejs</category>
+      </categories>
+      <tags>
+        <tag>文件上传</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[mongodb批量更新]]></title>
+    <url>%2F2018%2F02%2F28%2Fmongodb%E6%89%B9%E9%87%8F%E6%9B%B4%E6%96%B0%2F</url>
+    <content type="text"><![CDATA[生活中没有旁观者的 momgodb批量更新操作 version&lt;2.212345db.users.update(&#123;userid: &#123;$in: [&apos;1&apos;,&apos;2&apos;,&apos;3&apos;]&#125;&#125;,&#123;$inc: &#123;mycounter: 1&#125;&#125;,false, true); version&gt;2.212345db.users.update(&#123;userid: &#123;$in: [&apos;1&apos;,&apos;2&apos;,&apos;3&apos;]&#125;&#125;,&#123;$inc: &#123;mycounter: 1&#125;&#125;, &#123;&#123;multi: true&#125;&#125;);]]></content>
+      <categories>
+        <category>mongodb</category>
+      </categories>
+      <tags>
+        <tag>mongodb</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git关于文件权限修改引起的冲突解决办法]]></title>
+    <url>%2F2018%2F02%2F28%2Fgit%E5%85%B3%E4%BA%8E%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%BF%AE%E6%94%B9%E5%BC%95%E8%B5%B7%E7%9A%84%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[有些时候我们会对使用git管理代码进行权限修改，修改过后导致的结果就是本地==代码明明没有更改，却提示冲突==，这是为什么呢？原来git把文件权限也算作文件差异的一部分。解决办法 ： git中可以加入忽略文件权限的配置,具体代码如下： git config core.filemode false cat .git/config]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[52赫兹的鲸 --世界上最孤独的鲸鱼]]></title>
+    <url>%2F2018%2F02%2F28%2F52%E8%B5%AB%E5%85%B9%E7%9A%84%E9%B2%B8%2F</url>
+    <content type="text"><![CDATA[世界上最孤独的鲸鱼 百度百科《52赫兹的鲸》：她叫Alice，她1989年被发现，从1992年开始被追踪录音。在其他鲸鱼眼里，Alice就像是个哑巴。她这么多年来没有一个亲属或朋友，唱歌的时候没有人听见,难过的时候也没有人理睬。原因是这只孤独鲸的频率有52赫兹，而正常鲸的频率只有15～25赫兹，她的频率一直是与众不同的。 没有人聊天，也没有人听他美妙的歌声…没有伴侣 他是世界上最孤独的鲸鱼]]></content>
+      <categories>
+        <category>孤独</category>
+      </categories>
+      <tags>
+        <tag>孤独</tag>
+      </tags>
   </entry>
 </search>
