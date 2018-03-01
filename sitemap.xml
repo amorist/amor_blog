@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://amor.cool/2018/02/28/photo/</loc>
+    
+    <lastmod>2018-03-01T13:43:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://amor.cool/love/index.html</loc>
     
     <lastmod>2018-03-01T13:34:56.000Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>http://amor.cool/2018/02/28/vs-code-config/</loc>
     
     <lastmod>2018-02-28T02:35:06.961Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://amor.cool/2018/02/28/photo/</loc>
-    
-    <lastmod>2018-02-28T02:35:06.960Z</lastmod>
     
   </url>
   
