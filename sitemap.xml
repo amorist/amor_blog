@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://amor.cool/about/index.html</loc>
+    
+    <lastmod>2018-03-01T13:54:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://amor.cool/2018/02/28/photo/</loc>
     
     <lastmod>2018-03-01T13:46:22.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://amor.cool/categories/index.html</loc>
     
     <lastmod>2018-02-28T03:31:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://amor.cool/about/index.html</loc>
-    
-    <lastmod>2018-02-28T02:54:34.000Z</lastmod>
     
   </url>
   
@@ -107,14 +107,14 @@
   </url>
   
   <url>
-    <loc>http://amor.cool/2018/02/28/52%E8%B5%AB%E5%85%B9%E7%9A%84%E9%B2%B8/</loc>
+    <loc>http://amor.cool/2018/02/28/git%E5%85%B3%E4%BA%8E%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%BF%AE%E6%94%B9%E5%BC%95%E8%B5%B7%E7%9A%84%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2018-02-28T02:35:06.957Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://amor.cool/2018/02/28/git%E5%85%B3%E4%BA%8E%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E4%BF%AE%E6%94%B9%E5%BC%95%E8%B5%B7%E7%9A%84%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <loc>http://amor.cool/2018/02/28/52%E8%B5%AB%E5%85%B9%E7%9A%84%E9%B2%B8/</loc>
     
     <lastmod>2018-02-28T02:35:06.957Z</lastmod>
     
