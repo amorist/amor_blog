@@ -5,10 +5,10 @@
     <url>%2F2018%2F05%2F14%2Fset-terminal-proxy%2F</url>
     <content type="text"><![CDATA[纵使富有的人以其财富自傲，但在他还不知道如何使用他的财富以前，别去夸赞他。 — 苏格拉底 123set http_proxy=http://127.0.0.1:1080set https_proxy=http://127.0.0.1:1080]]></content>
       <categories>
-        <category>git</category>
+        <category>proxy</category>
       </categories>
       <tags>
-        <tag>git</tag>
+        <tag>proxy</tag>
       </tags>
   </entry>
   <entry>
