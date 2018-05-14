@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git同步fork分支]]></title>
+    <url>%2F2018%2F05%2F14%2Fgit%E5%90%8C%E6%AD%A5fork%E5%88%86%E6%94%AF%2F</url>
+    <content type="text"><![CDATA[学者的一天比不学无术的人一生还有价值。 — 阿拉伯 123456789git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.gitgit fetch upstreamgit checkout mastergit merge upstream/mastergit push origin master]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[徐志摩《沙扬娜拉》]]></title>
     <url>%2F2018%2F02%2F28%2F%E5%BE%90%E5%BF%97%E6%91%A9%E3%80%8A%E6%B2%99%E6%89%AC%E5%A8%9C%E6%8B%89%E3%80%8B%2F</url>
     <content type="text"><![CDATA[最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞 — 徐志摩《沙扬娜拉》 最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞道一声珍重，道一声珍重那一声珍重里有蜜甜的忧愁沙扬娜拉！]]></content>
